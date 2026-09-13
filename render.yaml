@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bhagavad-gita-website
+    runtime: static
+    buildCommand: "echo 'no build step needed'"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /downloads/*
+        name: Cache-Control
+        value: public, max-age=3600

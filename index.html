@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bhagavad Gita — Read the Gita in Sanskrit, Kannada, Hindi &amp; English</title>
+<meta name="description" content="A calm, focused reading app for the Bhagavad Gita — 18 chapters, 700 verses in Sanskrit with transliteration, search, bookmarks, and translations added as they're reviewed. Download the Android app directly, no store required." />
+<link rel="icon" href="assets/favicon.png" />
+<link rel="apple-touch-icon" href="assets/icon-192.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Noto+Serif+Devanagari:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <span class="spoke-ring"></span>
+        <span class="spoke-ring inner"></span>
+      </span>
+      <span class="brand-word">Bhagavad Gita</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">Overview</a>
+      <a href="#reading">Reading</a>
+      <a href="#structure">How it's built</a>
+      <a href="#download" class="nav-cta">Download</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-motif" aria-hidden="true">
+      <div class="chakra">
+        <div class="ring outer"></div>
+        <div class="ring inner"></div>
+        <div class="hub"></div>
+      </div>
+    </div>
+    <div class="hero-inner">
+      <p class="kicker">A quiet place to read the Gita</p>
+      <h1 class="hero-sanskrit">श्रीमद्भगवद्गीता</h1>
+      <p class="hero-lede">
+        Eighteen chapters. Seven hundred verses. Read the Bhagavad Gita in Sanskrit
+        with transliteration, follow along in Kannada, Hindi or English as
+        translations are reviewed and added, and pick up your place exactly
+        where you left it.
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">Download for Android</a>
+        <a href="#about" class="btn btn-ghost">See what's inside</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / STATS -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <h2>An unhurried reader, not a feed</h2>
+      <p class="about-lede">
+        No accounts to browse, no notifications, no algorithm deciding what
+        you see next. Open a chapter, read a verse, close it — everything you
+        need to come back to is saved on your device.
+      </p>
+      <div class="stat-strip">
+        <div class="stat"><span class="stat-num">18</span><span class="stat-label">chapters</span></div>
+        <div class="stat"><span class="stat-num">700</span><span class="stat-label">verses</span></div>
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">languages</span></div>
+        <div class="stat"><span class="stat-num">0</span><span class="stat-label">ads or trackers</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- READING EXPERIENCE -->
+  <section class="reading" id="reading">
+    <div class="reading-inner">
+      <div class="reading-copy">
+        <p class="kicker light">The reading experience</p>
+        <h2>Verse by verse, in your language</h2>
+        <ul class="feature-list">
+          <li>
+            <h3>Sanskrit, as it was written</h3>
+            <p>Every verse is shown in Devanagari with a clean transliteration alongside it, so you can read or chant along even if Sanskrit isn't your first script.</p>
+          </li>
+          <li>
+            <h3>Kannada, Hindi &amp; English translations</h3>
+            <p>Translations are added only once they've been sourced and reviewed — so what you read is trustworthy, not machine-guessed. Sanskrit is always available while a chapter's translation is still in progress.</p>
+          </li>
+          <li>
+            <h3>Search, bookmarks &amp; progress</h3>
+            <p>Jump straight to a verse, save the ones that matter to you, and the app remembers exactly where you left off — no sign-in required.</p>
+          </li>
+          <li>
+            <h3>Reads well anywhere</h3>
+            <p>Adjustable text size, a high-contrast mode, and an interface built to feel calm on a small screen as much as a large one.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="reading-visual" aria-hidden="true">
+        <div class="verse-card">
+          <p class="verse-card-kicker">Chapter 2 · Verse 47</p>
+          <p class="verse-card-sanskrit">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br/>मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRUCTURE -->
+  <section class="structure" id="structure">
+    <div class="structure-inner">
+      <p class="kicker">How it's built</p>
+      <h2>A simple app, honestly put together</h2>
+      <p class="structure-lede">
+        The app is built with Expo and TypeScript, so the same codebase runs
+        on Android, iOS and the web. Content is designed the same way
+        throughout — nothing shown to a reader skips review.
+      </p>
+      <div class="flow">
+        <div class="flow-block">
+          <span class="flow-label">App</span>
+          <h3>Expo · React Native · TypeScript</h3>
+          <p>One codebase for the Android app and the web reader, sharing the same screens, content and reading progress logic.</p>
+        </div>
+        <div class="flow-connector" aria-hidden="true"></div>
+        <div class="flow-block">
+          <span class="flow-label">Content</span>
+          <h3>Sanskrit dataset, reviewed translations</h3>
+          <p>All 700 Sanskrit verses ship with the app. Translations move through Draft → Review Required → Human Reviewed → Published before anyone reads them.</p>
+        </div>
+        <div class="flow-connector" aria-hidden="true"></div>
+        <div class="flow-block">
+          <span class="flow-label">Backend</span>
+          <h3>PostgreSQL · Prisma (optional)</h3>
+          <p>An admin panel backed by Postgres manages content review at scale — not required just to read, only for larger content teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section class="download" id="download">
+    <div class="download-inner">
+      <p class="kicker light">Get the app</p>
+      <h2>Download it directly — no store needed</h2>
+      <p class="download-lede">
+        This app isn't listed on the Play Store or App Store. Download the
+        Android package below and install it directly on your phone.
+      </p>
+
+      <div class="download-panel">
+        <div class="download-info">
+          <span class="apk-badge">APK</span>
+          <div>
+            <p class="download-name">Bhagavad Gita — Android</p>
+            <p class="download-meta" id="apk-meta">Version 1.0.0 · Update the size/version in script.js or here once you upload your real file</p>
+          </div>
+        </div>
+        <a href="downloads/bhagavad-gita.apk" class="btn btn-primary btn-large" download>
+          Download APK
+        </a>
+      </div>
+
+      <details class="install-help">
+        <summary>How do I install an APK without the Play Store?</summary>
+        <ol>
+          <li>Download the file above on your Android phone (not a computer).</li>
+          <li>Open your phone's <strong>Settings → Apps → Special access → Install unknown apps</strong>, and allow your browser to install apps.</li>
+          <li>Open the downloaded file and tap <strong>Install</strong>.</li>
+          <li>Once installed, you can open it like any other app.</li>
+        </ol>
+        <p class="install-note">Android will warn you that this app is from an unrecognized developer — that's expected for any app installed outside the Play Store.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="brand footer-brand">
+      <span class="brand-mark small" aria-hidden="true">
+        <span class="spoke-ring"></span>
+      </span>
+      <span class="brand-word">Bhagavad Gita</span>
+    </div>
+    <p class="footer-text">The Sanskrit text of the Bhagavad Gita is an ancient work in the public domain. Translations are added only once reviewed and properly licensed.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
