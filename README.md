@@ -1,5 +1,8 @@
 # Bhagavad Gita — website
 
+[![Live Site](https://img.shields.io/badge/live-bhagavad--gita--pelk.onrender.com-E6B85C?style=for-the-badge)](https://bhagavad-gita-pelk.onrender.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
+
 A static landing page for the app: what it is, how it's built, and a direct
 APK download (no Play Store / App Store).
 
